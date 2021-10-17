@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9913DF8E271C8E3000213D19 /* UIView++Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9913DF8D271C8E3000213D19 /* UIView++Pin.swift */; };
 		99680AB226FCAC0200FDC8E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99680AB126FCAC0200FDC8E7 /* AppDelegate.swift */; };
 		99680AB426FCAC0200FDC8E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99680AB326FCAC0200FDC8E7 /* SceneDelegate.swift */; };
 		99680AB626FCAC0200FDC8E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99680AB526FCAC0200FDC8E7 /* ViewController.swift */; };
 		99680ABB26FCAC0300FDC8E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99680ABA26FCAC0300FDC8E7 /* Assets.xcassets */; };
 		99680ABE26FCAC0300FDC8E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99680ABC26FCAC0300FDC8E7 /* LaunchScreen.storyboard */; };
-		99680AC626FCADF100FDC8E7 /* UIView++Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99680AC526FCADF100FDC8E7 /* UIView++Pin.swift */; };
 		99680ACA26FCFCB500FDC8E7 /* UIColor++Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99680AC926FCFCB500FDC8E7 /* UIColor++Hex.swift */; };
 		99680ACC26FD082900FDC8E7 /* ViewController++locationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99680ACB26FD082900FDC8E7 /* ViewController++locationManager.swift */; };
 		99680ACE26FD0A7000FDC8E7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99680ACD26FD0A7000FDC8E7 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9913DF8D271C8E3000213D19 /* UIView++Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView++Pin.swift"; sourceTree = "<group>"; };
 		99680AAE26FCAC0200FDC8E7 /* yaulyanenkovPW2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yaulyanenkovPW2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99680AB126FCAC0200FDC8E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99680AB326FCAC0200FDC8E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,7 +27,6 @@
 		99680ABA26FCAC0300FDC8E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99680ABD26FCAC0300FDC8E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99680ABF26FCAC0300FDC8E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		99680AC526FCADF100FDC8E7 /* UIView++Pin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView++Pin.swift"; path = "../../../../Downloads/UIView++Pin.swift"; sourceTree = "<group>"; };
 		99680AC926FCFCB500FDC8E7 /* UIColor++Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor++Hex.swift"; sourceTree = "<group>"; };
 		99680ACB26FD082900FDC8E7 /* ViewController++locationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController++locationManager.swift"; sourceTree = "<group>"; };
 		99680ACD26FD0A7000FDC8E7 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -63,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				99680ACD26FD0A7000FDC8E7 /* SettingsViewController.swift */,
-				99680AC526FCADF100FDC8E7 /* UIView++Pin.swift */,
 				99680AB126FCAC0200FDC8E7 /* AppDelegate.swift */,
 				99680AB326FCAC0200FDC8E7 /* SceneDelegate.swift */,
 				99680AB526FCAC0200FDC8E7 /* ViewController.swift */,
@@ -72,6 +71,7 @@
 				99680ABF26FCAC0300FDC8E7 /* Info.plist */,
 				99680AC926FCFCB500FDC8E7 /* UIColor++Hex.swift */,
 				99680ACB26FD082900FDC8E7 /* ViewController++locationManager.swift */,
+				9913DF8D271C8E3000213D19 /* UIView++Pin.swift */,
 			);
 			path = yaulyanenkovPW2;
 			sourceTree = "<group>";
@@ -146,11 +146,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				99680AB626FCAC0200FDC8E7 /* ViewController.swift in Sources */,
+				9913DF8E271C8E3000213D19 /* UIView++Pin.swift in Sources */,
 				99680ACC26FD082900FDC8E7 /* ViewController++locationManager.swift in Sources */,
 				99680ACE26FD0A7000FDC8E7 /* SettingsViewController.swift in Sources */,
 				99680AB226FCAC0200FDC8E7 /* AppDelegate.swift in Sources */,
 				99680ACA26FCFCB500FDC8E7 /* UIColor++Hex.swift in Sources */,
-				99680AC626FCADF100FDC8E7 /* UIView++Pin.swift in Sources */,
 				99680AB426FCAC0200FDC8E7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
